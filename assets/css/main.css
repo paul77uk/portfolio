@@ -3473,7 +3473,7 @@ body.index #main {
 .skill {
   border: 1px solid white;
   border-radius: 5px;
-  margin: 0.5em;
+  margin: 0 1em;
   padding: 0.5em;
   min-width: 180px;
 }
@@ -3483,6 +3483,12 @@ body.index #main {
   margin: 0.5em;
 }
 
-.center {
-  text-align: center;
+div.col-3.col-12-narrower {
+  margin: 0;
+  padding: 0;
 }
+
+/* .col-12-narrower {
+	margin: 0;
+	padding: 0;
+} */
